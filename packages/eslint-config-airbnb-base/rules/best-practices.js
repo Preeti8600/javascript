@@ -131,13 +131,6 @@ module.exports = {
     // https://eslint.org/docs/rules/no-floating-decimal
     'no-floating-decimal': 'error',
 
-    // disallow reassignments of native objects or read-only globals
-    // https://eslint.org/docs/rules/no-global-assign
-    'no-global-assign': ['error', { exceptions: [] }],
-
-    // deprecated in favor of no-global-assign
-    // https://eslint.org/docs/rules/no-native-reassign
-    'no-native-reassign': 'off',
 
     // disallow implicit type conversions
     // https://eslint.org/docs/rules/no-implicit-coercion

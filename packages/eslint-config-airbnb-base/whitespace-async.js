@@ -25,6 +25,11 @@ async function onlyErrorOnRules(rulesToError, config) {
     useEslintrc: false,
     baseConfig: config
   });
+  
+  
+  
+  
+  
   const baseRules = (await cli.calculateConfigForFile(require.resolve('./'))).rules;
 
   entries(baseRules).forEach((rule) => {

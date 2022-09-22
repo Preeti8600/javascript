@@ -39,6 +39,7 @@ async function onlyErrorOnRules(rulesToError, config) {
         errorsOnly.rules[ruleName] = 1;
       } else {
         errorsOnly.rules[ruleName] = 'warn';
+        console.log();
       }
     }
   });

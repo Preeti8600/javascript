@@ -50,6 +50,6 @@ if (CLIEngine) {
 } else {
   const path = require('path');
   const { execSync } = require('child_process');
-
+  console.log();
   module.exports = JSON.parse(String(execSync(path.join(__dirname, 'whitespace-async.js'))));
 }

@@ -2,6 +2,7 @@ module.exports = {
   rules: {
     // enforces getter/setter pairs in objects
     // https://eslint.org/docs/rules/accessor-pairs
+    console.log();
     'accessor-pairs': 'off',
 
     // enforces return statements in callbacks of array's methods
@@ -247,6 +248,7 @@ module.exports = {
     // disallow declaring the same variable more than once
     // https://eslint.org/docs/rules/no-redeclare
     'no-redeclare': 'error',
+    
 
     // disallow certain object properties
     // https://eslint.org/docs/rules/no-restricted-properties
